@@ -4,15 +4,15 @@
 
 ### Suppose a file named main.js contains the following code:
 
-...export function get(name){
-...
-...        ...some code
-...
-...    }
+>export function get(name){
+>
+>        ...some code
+>
+>    }
 
 ### - Then, we imported greetPerson() in another file using the import keyword. To import functions, objects, etc., you need to wrap them around { }.
 
-... import {get} from './main.js';
+> import {get} from './main.js';
 
 ![](https://github.com/blacklldrago/ImportExport/raw/main/img/module.png)
 
